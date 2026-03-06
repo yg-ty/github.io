@@ -682,8 +682,13 @@
     .hero { grid-template-columns: 1fr; }
     .hero-right { height: 300px; }
     .hero-left { padding: 60px 24px; }
-    .hero-title { font-size: 36px; }
+    .hero-title { font-size: 36px; word-break: keep-all; }
+    .hero-title br { display: none; }
+    .hero-desc { word-break: keep-all; }
+    .hero-desc br { display: none; }
     .section { padding: 80px 24px; }
+    .section-title { font-size: 28px; word-break: keep-all; }
+    .section-title br { display: none; }
     .problem { grid-template-columns: 1fr; }
     .land-cards { grid-template-columns: 1fr; }
     .photo-grid { grid-template-columns: 1fr 1fr; grid-template-rows: auto; }
@@ -692,6 +697,13 @@
     .intro-strip { padding: 50px 24px; grid-template-columns: 1fr; }
     .intro-divider { display: none; }
     footer { flex-direction: column; gap: 12px; text-align: center; }
+    .quote-text { font-size: 20px; word-break: keep-all; }
+    .quote-text br { display: none; }
+    .quote-sub { word-break: keep-all; }
+    .quote-sub br { display: none; }
+    .cta-title { font-size: 30px; word-break: keep-all; }
+    .cta-title br { display: none; }
+    .cta-section { padding: 80px 28px; }
   }
 </style>
 </head>
